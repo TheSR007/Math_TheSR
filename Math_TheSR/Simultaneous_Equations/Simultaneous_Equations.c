@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <conio.h>
 int det(size_t n, int a[][n]);
 
 int main() {
@@ -40,6 +40,7 @@ int main() {
                 Variables[k][i]=Temp[k][i]; 
             }     
         }
+    getch();
         return 0;
 }
 
