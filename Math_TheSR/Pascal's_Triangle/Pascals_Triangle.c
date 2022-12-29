@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <conio.h>
 long long fac(long long int x);
 int main(){
     long long N,n;
@@ -24,6 +25,7 @@ int main(){
         printf("Enter between 1 to 20\n");
         goto level;
     }   
+    getch();
 }
 long long fac(long long x){
     if(!x || x == 1)
