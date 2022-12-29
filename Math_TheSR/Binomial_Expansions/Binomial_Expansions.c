@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 long fac(long x);
 int main(){
     int power,sign;
@@ -30,6 +31,7 @@ int main(){
         printf("Enter between 1 to whatever");
         goto level;
     }   
+    getch();
 }
 long fac(long x){
     if(!x)
